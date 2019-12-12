@@ -1,0 +1,16 @@
+import React from 'react';
+import { render } from '@testing-library/react';
+import App from './App';
+import Enzyme, { shallow } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+import expectExport from 'expect';
+
+Enzyme.configure({ adapter: new Adapter() });
+
+test('renders learn react link', () => {
+  const wrapper = shallow(<App />).find('[data-test="app"]')
+  // expect(wrapper).toMatchSnapshot()
+  expect(wrapper.length).toBe(1)
+  // expect(wrapper).toExist()
+  // expect(wrapper).toHaveProp('title', 'fff')
+})
