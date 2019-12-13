@@ -1,0 +1,12 @@
+{
+  "data": [
+    {
+      "type": "div",
+      "value": "test1"
+    },
+    {
+      "type": "input",
+      "value": "test2"
+    }
+  ]
+}
