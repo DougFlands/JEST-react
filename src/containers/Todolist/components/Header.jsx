@@ -41,7 +41,7 @@ class Header extends Component {
       >
         <p>todolist</p>
         <input
-          data-test="input"
+          data-test="header-input"
           value={value}
           // onChange={e => handleInputChange(e.target.value)}
           onChange={this.handleInputChange.bind(this)}
