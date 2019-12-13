@@ -32,7 +32,7 @@ class Header extends Component {
       <div data-test="Header" style={{display: 'flex', height: '24px', justifyContent: 'space-around'}}>
         <p>todolist</p>
         <input
-          data-test="input"
+          data-test="header-input"
           value={value}
           onChange={this.handleInputChange.bind(this)}
           onKeyUp={this.handleInputKeyUp.bind(this)}
