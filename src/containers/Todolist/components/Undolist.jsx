@@ -1,10 +1,6 @@
 import React, { Component } from "react";
 
 class Undolist extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const { list = [], deleteItem, changeStatus, changeValue } = this.props;
     return (
